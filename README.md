@@ -1,12 +1,18 @@
 # MLX90640_Thermal_Camera_with_ESP32
 
 -----------------------------
+<<<<<<< HEAD
 This tutorial introduces the use of the MLX90640 Thermal Camera module via Adafruit-ESP32-FeatherV2 board + graphics visualization via Processing (P3)
 
 ---
 More about:
 
 MLX90640 Thermal Camera: https://github.com/kingston-hackSpace/thermalCamera_MLX90640
+=======
+Description:
+-----------------------
+This Thermal-Camera Tutorial introduces the use of the MLX90640 WIDE model using a Adafruit-ESP32-Feather-V2 board + computer screen display via Processing (P3)
+>>>>>>> 124432f79727872decddfb2859defbfaacef4b16
 
 ESP32:
     https://learn.adafruit.com/adafruit-esp32-feather-v2/overview
@@ -62,5 +68,16 @@ TUTORIAL
 
 - Open and run any of the .pde sckeths provided (Yellow or Pink). 
 
+<<<<<<< HEAD
+=======
+------------------------------
+Compatibility:
+------------------------
+- Raspberry Pi
+- ESP32
+- Teensy 3.1 or higher
+- Other micro-controllers of 20kB RAM or higher
+- Not for Arduino boards.
+>>>>>>> 124432f79727872decddfb2859defbfaacef4b16
 
 
