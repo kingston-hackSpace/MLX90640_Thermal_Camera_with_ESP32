@@ -12,12 +12,13 @@ ESP32: https://learn.adafruit.com/adafruit-esp32-feather-v2/overview
 Processing: https://processing.org/
 
 ---
-
 TUTORIAL
--
+---
 **STEP 1: Installing Processing**
 - Install Processing if you haven't already:
-    https://processing.org/download?processing 
+    https://processing.org/download?processing
+
+-
 
 **STEP 2: Installing ESP32 dependancies**
 - Open your Arduino IDE
@@ -71,9 +72,9 @@ TUTORIAL
 
 - Open and run any of the .pde sckeths provided (Yellow or Pink).
 
-
+---
 Debugging
--
+---
 If you get a "exit 2" error, check the communication speed 
 
 - Go to "Tools > Upload Speed > 125200"
