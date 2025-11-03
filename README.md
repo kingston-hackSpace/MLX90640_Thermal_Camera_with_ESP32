@@ -24,7 +24,9 @@ TUTORIAL
 
 - At the top menu, select:
     Arduino IDE > Preferences...
-    Fill "Additional boards manager URLs" copying the following into it: 
+
+  Fill "Additional boards manager URLs" copying the following into it: 
+
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
   
 - Close/Re-open Arduino IDE
@@ -33,9 +35,9 @@ TUTORIAL
 
 - Search for "esp32 by Espressif Systems". Install. 
 
-- Go to "Tools > Upload Speed > 125200"
-
-- Plug the ESP32 to your computer if you haven't already
+- Plug your ESP32 to your computer if you haven't alredy.
+  
+- Go to "Tools > Upload Speed > 115200"
 
 - At the top of your Arduino IDE screen, select the board: "Adafruit Feather ESP32 V2"
 
@@ -45,7 +47,7 @@ TUTORIAL
 
 **STEP 3: Installing Thermal Camera dependancies**
 
-- Go to "Scketh > Include Library > Manage Libraries..."
+- Go to "Scketch > Include Library > Manage Libraries..."
   
 - Search for "Adafruit MLX90640 by Adafruit". Install.
 
@@ -67,7 +69,14 @@ TUTORIAL
 
 **STEP 6: Run the Processing Sketch**
 
-- Open and run any of the .pde sckeths provided (Yellow or Pink). 
+- Open and run any of the .pde sckeths provided (Yellow or Pink).
+
+
+Debugging
+-
+If you get a "exit 2" error, check the communication speed 
+
+- Go to "Tools > Upload Speed > 125200"
 
 
 
