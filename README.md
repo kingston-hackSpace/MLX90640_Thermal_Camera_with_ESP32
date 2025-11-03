@@ -1,83 +1,73 @@
 # MLX90640_Thermal_Camera_with_ESP32
 
 -----------------------------
-<<<<<<< HEAD
 This tutorial introduces the use of the MLX90640 Thermal Camera module via Adafruit-ESP32-FeatherV2 board + graphics visualization via Processing (P3)
 
----
-More about:
-
+More about
+-
 MLX90640 Thermal Camera: https://github.com/kingston-hackSpace/thermalCamera_MLX90640
-=======
-Description:
------------------------
-This Thermal-Camera Tutorial introduces the use of the MLX90640 WIDE model using a Adafruit-ESP32-Feather-V2 board + computer screen display via Processing (P3)
->>>>>>> 124432f79727872decddfb2859defbfaacef4b16
 
-ESP32:
-    https://learn.adafruit.com/adafruit-esp32-feather-v2/overview
+ESP32: https://learn.adafruit.com/adafruit-esp32-feather-v2/overview
 
-Processing:
-    https://processing.org/
+Processing: https://processing.org/
 
 ---
 
 TUTORIAL
 -
-
-
-
-**STEP 1: Installing Processing
+**STEP 1: Installing Processing**
 - Install Processing if you haven't already:
     https://processing.org/download?processing 
 
-**STEP 2: Installing ESP32 dependancies 
-
+**STEP 2: Installing ESP32 dependancies**
 - Open your Arduino IDE
+
 - At the top menu, select:
     Arduino IDE > Preferences...
     Fill "Additional boards manager URLs" copying the following into it: 
-    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json 
+    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
+  
 - Close/Re-open Arduino IDE
+  
 - Go to "Tools > Boards > Boards Manager"
+
 - Search for "esp32 by Espressif Systems". Install. 
+
 - Go to "Tools > Upload Speed > 125200"
+
 - Plug the ESP32 to your computer if you haven't already
+
 - At the top of your Arduino IDE screen, select the board: "Adafruit Feather ESP32 V2"
+
 - Go to "File > Examples > 01.Basics > Blink"
+
 - Upload the Blink example into your board to test that everything has gone well in your installation process.
 
-**STEP 3: Installing Thermal Camera dependancies
+**STEP 3: Installing Thermal Camera dependancies**
 
 - Go to "Scketh > Include Library > Manage Libraries..."
+  
 - Search for "Adafruit MLX90640 by Adafruit". Install.
+
 - Go to "File > Examples > (scroll down until you find:)
                             Adafruit MLX90640 > MLX90640_simpleTest"
                             
 - Upload this example into your board to test that everything has gone well in your installation process.
 
-**STEP 5: Run the Arduino Sketch
+**STEP 5: Run the Arduino Sketch**
 
 - Now open and upload the Arduino Code provided in this tutorial, named "MLX90640_CameraView.ino"
+
 - Open your Serial Monitor, you should see data printed in it. If You get a "exit 2" error, you need to repeat the following step:
-    - Go to "Tools > Upload Speed > 125200"
+
+- Go to "Tools > Upload Speed > 125200"
+
 - Close Arduino. You won't be able to run the Processing schetch if Arduino Serial Monitor is open.
     
 
-**STEP 6: Run the Processing Sketch
+**STEP 6: Run the Processing Sketch**
 
 - Open and run any of the .pde sckeths provided (Yellow or Pink). 
 
-<<<<<<< HEAD
-=======
-------------------------------
-Compatibility:
-------------------------
-- Raspberry Pi
-- ESP32
-- Teensy 3.1 or higher
-- Other micro-controllers of 20kB RAM or higher
-- Not for Arduino boards.
->>>>>>> 124432f79727872decddfb2859defbfaacef4b16
 
 
