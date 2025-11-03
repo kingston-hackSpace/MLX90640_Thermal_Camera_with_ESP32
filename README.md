@@ -3,12 +3,7 @@
 -----------------------------
 Description:
 -----------------------
-This Thermal-Camera Tutorial introduces the use of the MLX90640 WIDE model under two display settings:
-
-a) MLX90640 + ESP32 + computer screen display via Processing (P3)
-b) MLX90640 + Raspberry Pi + screen display via HDMI cable
-
-You will find specific instructions for each approach in the corresponding folders.
+This Thermal-Camera Tutorial introduces the use of the MLX90640 WIDE model using a Adafruit-ESP32-Feather-V2 board + computer screen display via Processing (P3)
 
 ------------------------------- 
 MLX90640 Features:
