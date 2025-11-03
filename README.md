@@ -29,7 +29,7 @@ Compatibility:
 - ESP32
 - Teensy 3.1 or higher
 - Other micro-controllers of 20kB RAM or higher
-- Not for Arduino boards. 
+- Not for Arduino boards.
 
 ------------------------------
 More Info:
